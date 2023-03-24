@@ -6,22 +6,21 @@ namespace ChallengesWithTestsMark8
     {
         public bool AreTwoNumbersTheSame(int num1, int num2)
         {
-            if(num1 == num2)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return (num1 == num2) ? true : false;
+            //{
+            //    return true;
+            //}
+            //else
+            //{
+            //    return false;
+            //}
         }
 
         public double Subtract(double minuend, double subtrahend)
         {
             //throw new NotImplementedException();
 
-            //double sum = minuend - subtrahend;
-            //return sum;
+            
             return minuend - subtrahend;
 
 
@@ -29,8 +28,7 @@ namespace ChallengesWithTestsMark8
 
         public int Add(int number1, int number2)
         {
-            //int sum = number1 + number2;
-            //return sum;
+            
             return number1 + number2;
             
             //throw new NotImplementedException();
@@ -57,9 +55,9 @@ namespace ChallengesWithTestsMark8
 
             if (nameOfPerson == "")
             {
-                return ("Hello!");
+                return "Hello!";
             }
-            else return ($"Hello, {nameOfPerson}!");
+            else return $"Hello, {nameOfPerson}!";
 
             //throw new NotImplementedException();
         }
