@@ -12,7 +12,7 @@ namespace ChallengesWithTestsMark8.Tests
         [InlineData(new int[] { 2, 3 }, -1)]
         [InlineData(new int[] { 0, 0 }, 0)]
         [InlineData(new int[] { }, 0)]
-        // [InlineData(null, 0)] // Assumption: array will not be null
+        //[InlineData(null, 0)] // Assumption: array will not be null
         public void AddEvenSubtractOdd(int[] numbers, int expected)
         {
             // Arrange
